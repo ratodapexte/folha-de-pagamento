@@ -1,5 +1,7 @@
 package Payment;
 
+import sales.*;
+
 import java.util.ArrayList;
 
 /**
@@ -8,5 +10,5 @@ import java.util.ArrayList;
 public class Commissioned extends Salaried {
     private double salary;
     private double percent;
-    private ArrayList<Sell> listOfSellings;
+    private ArrayList<Sales> listOfSellings;
 }
