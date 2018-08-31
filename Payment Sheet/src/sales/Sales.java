@@ -5,6 +5,14 @@ package sales;
  */
 public class Sales {
     private double price;
-    //private Date date;
+    private String date;
 
+    public Sales(double price, String date) {
+        this.price = price;
+        this.date = date;
+    }
+
+    public double getPrice() {
+        return price;
+    }
 }

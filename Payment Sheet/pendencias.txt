@@ -1,0 +1,10 @@
+Geral
+ V   Melhorar toString das classe;
+
+Classe Employee
+X    employee ganhou o atributo     private PaymentSheet paymentSheet; que ainda não é inicializado
+
+
+Classe SheetsOperations
+addCheeckSheet()
+X    Mlhorar a busca do empregado por id;
